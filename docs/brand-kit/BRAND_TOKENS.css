@@ -1,0 +1,5 @@
+:root { --renick-deep: #03271F; --renick-green: #063A2D; --renick-cream: #FFF8EC; --renick-gold: #D9A54C; --renick-timber: #BD8650; --renick-ink: #172B24; --font-heading: "Cormorant Garamond", Georgia, serif; --font-body: Montserrat, Arial, sans-serif; }
+body { background:var(--renick-cream);color:var(--renick-ink);font:18px/1.55 var(--font-body); }
+h1,h2,h3 { font-family:var(--font-heading); line-height:1.12; }
+a { color:var(--renick-green); }
+button,.cta { background:var(--renick-green);color:var(--renick-cream);padding:.85em 1.3em;border-radius:4px; }

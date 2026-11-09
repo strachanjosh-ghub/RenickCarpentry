@@ -1,0 +1,98 @@
+# Decap CMS configuration — see docs/CONTENT_GUIDE.md
+backend:
+  name: git-gateway        # requires Netlify Identity + Git Gateway enabled
+  branch: main
+local_backend: true        # `npx decap-server` for local editing
+media_folder: public/images/uploads
+public_folder: /images/uploads
+locale: en
+site_url: https://renickcarpentary.com.au
+display_url: https://renickcarpentary.com.au
+publish_mode: editorial_workflow   # changes are saved as drafts for review before going live
+
+collections:
+  - name: projects
+    label: Projects (Our Work)
+    label_singular: Project
+    folder: content/projects
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} — {{suburb}} ({{status}})"
+    fields:
+      - { label: Title, name: title, widget: string, hint: "e.g. 'Light-filled kitchen renovation in a 1950s Highton home'" }
+      - { label: Short description (for Google), name: description, widget: text, hint: "One or two sentences, about 150 characters." }
+      - { label: Status, name: status, widget: select, options: [draft, published], default: draft, hint: "Only 'published' projects appear on the live site." }
+      - { label: Suburb / area, name: suburb, widget: string, hint: "Only use with the homeowner's permission." }
+      - { label: Project type, name: projectType, widget: string }
+      - label: Main service
+        name: serviceSlug
+        widget: select
+        options:
+          - { label: Home Renovations, value: renovations-geelong }
+          - { label: Bathroom Renovations, value: bathroom-renovations-geelong }
+          - { label: Kitchen Renovations, value: kitchen-renovations-geelong }
+          - { label: Outdoor Living & Entertaining, value: outdoor-living-renovations }
+          - { label: Custom Carpentry & Finishing, value: custom-carpentry-geelong }
+      - { label: Year completed, name: year, widget: string, required: false }
+      - { label: One-line summary (shown on cards), name: summary, widget: text }
+      - label: Main photo
+        name: heroImage
+        widget: object
+        fields:
+          - { label: Photo, name: src, widget: image, required: false }
+          - { label: Describe the photo (alt text), name: alt, widget: string }
+      - label: Before photo
+        name: before
+        widget: object
+        required: false
+        fields:
+          - { label: Photo, name: src, widget: image, required: false }
+          - { label: Describe the photo, name: alt, widget: string }
+      - label: After photo (same angle as before)
+        name: after
+        widget: object
+        required: false
+        fields:
+          - { label: Photo, name: src, widget: image, required: false }
+          - { label: Describe the photo, name: alt, widget: string }
+      - label: Detail photos
+        name: gallery
+        widget: list
+        required: false
+        fields:
+          - { label: Photo, name: src, widget: image }
+          - { label: Describe the photo, name: alt, widget: string }
+          - { label: Caption, name: caption, widget: string, required: false }
+      - { label: What the homeowner wanted, name: objectives, widget: text }
+      - { label: Design considerations, name: design, widget: text }
+      - { label: Challenges and solutions, name: challenges, widget: text }
+      - { label: Craftsmanship details, name: craftsmanship, widget: text }
+      - { label: Finished outcome, name: outcome, widget: text }
+      - label: Client testimonial
+        name: testimonial
+        widget: object
+        required: false
+        fields:
+          - { label: Exact words (never edit or invent), name: quote, widget: text, required: false }
+          - { label: Name as the client wants it shown, name: name, widget: string, required: false }
+          - { label: Client has given written permission, name: permission, widget: boolean, default: false }
+      - { label: Extra story (optional), name: body, widget: markdown, required: false }
+
+  - name: articles
+    label: Advice articles
+    label_singular: Article
+    folder: content/articles
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Short description (for Google), name: description, widget: text }
+      - { label: Publish date, name: date, widget: datetime, format: "YYYY-MM-DD", date_format: "D MMMM YYYY", time_format: false }
+      - { label: Category, name: category, widget: string }
+      - { label: Card summary, name: summary, widget: text }
+      - { label: Main question this article answers, name: keyQuestion, widget: string }
+      - { label: Short answer (2–3 sentences), name: shortAnswer, widget: text }
+      - { label: Author, name: author, widget: select, options: ["Renick Carpentry", "Alister"], default: "Renick Carpentry" }
+      - { label: Related service pages, name: relatedServices, widget: select, multiple: true, required: false, options: [renovations-geelong, bathroom-renovations-geelong, kitchen-renovations-geelong, outdoor-living-renovations, custom-carpentry-geelong] }
+      - { label: Hide (draft), name: draft, widget: boolean, default: false, required: false }
+      - { label: Article, name: body, widget: markdown }

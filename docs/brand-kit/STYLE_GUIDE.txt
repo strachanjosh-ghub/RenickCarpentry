@@ -1,0 +1,50 @@
+RENICK CARPENTRY — OFFICIAL BRAND STYLE GUIDE
+Version 1.0 | 9 November 2026 | Direction: Option A — Detailed Joinery R
+
+IDENTITY
+Legal/trading spelling: confirm against registration before publication. The contact address and domain use 'Carpentary' exactly as supplied: Alister@RenickCarpentary.com.au / https://RenickCarpentary.com.au
+Business name in designs: RENICK CARPENTRY (historical brand spelling); user-supplied contact address and domain intentionally spell Carpentary. Confirm registration before publication.
+Positioning: Local, personally involved, high-quality renovation carpenter for established homeowners in Geelong and Surf Coast.
+Service emphasis: premium renovations and exceptional finish; practical guidance; client-led ideas; one larger project with smaller projects as capacity allows.
+Service promise: Quality Home Renovations
+Tagline LOCKED: Thoughtfully planned, beautifully finished.
+Voice: confident, local, warm, measured, trustworthy. Avoid boastful 'best' claims without evidence and avoid bargain/handyman positioning.
+
+COLOURS (exact tokens, not inferred from mockup)
+Deep Forest (hero/sign background): #03271F | RGB 3,39,31
+Primary Forest Green (on cream): #063A2D | RGB 6,58,45
+Warm Cream (primary light type): #FFF8EC | RGB 255,248,236
+Heritage Gold (rules and accents): #D9A54C | RGB 217,165,76
+Timber Brown (joinery material): #BD8650 | RGB 189,134,80
+Dark Body Text: #172B24
+
+CONTRAST PRINCIPLE
+Never place the forest-green body of the R directly on dark forest green; use the separately supplied REVERSED version, with warm-cream body and timber features. This was specifically corrected after earlier sign/logo versions lacked contrast.
+Primary dark-ground logo: joinery-R-reversed-dark. Primary light-ground logo: joinery-R-primary-light.
+Use warm cream for all small text on dark green; gold only for large highlights and rules. Do not place gold as small print on cream backgrounds.
+
+TYPOGRAPHY
+Headings: Cormorant Garamond Semibold (suggested, obtain licence/font via Google Fonts or substitute Georgia Bold); body: Montserrat Medium (suggested, obtain from authorised source) or Arial.
+Headings 44–64 px desktop / 32–40 px mobile; body 17–19 px / line-height 1.55; navigation minimum 16 px; fence sign use bold legible lettering readable at driving speed; phone number needs strongest visibility after company name/service.
+
+LOGO CONSTRUCTION AND USAGE
+Option A's geometric R is reconstructed as editable SVG: dark green upper bowl with timber vertical and diagonal features, a diamond joinery junction, cream negative-space counter. On dark ground the green becomes cream for legibility.
+Preserve clear space at least 1/4 of emblem width; no shadows, gradients, squashing, or alternate colours. The logo should not be used at tiny dimensions with timber-grain pinstripes; use one-colour art for embroidery and tiny icons.
+SVG for scalable production. PNG for CMS upload. Print vendor should verify actual strokes, colours, crop/bleed, materials before fabrication.
+
+ASSET CHOICE
+Website header on dark: renick-horizontal-dark.svg | on cream: renick-horizontal-light.svg
+Social: og-social-preview.png | website hero placeholder: homepage-brand-hero.png
+Favicons: favicon-32.png, favicon-192.png, favicon-512.png
+Site fencing: A3-landscape-fence-sign.svg (print shop to add its required bleed, eyelets and safe-area).
+Workwear: embroidery-one-colour.svg (embroidery supplier digitises separately).
+
+BUSINESS CONTACT DETAILS
+Alister | 0409 423 724 | Alister@RenickCarpentary.com.au | https://RenickCarpentary.com.au
+Target service area: Geelong and Surf Coast VIC, Australia (not an asserted street address).
+
+IMAGE DIRECTION
+Always prioritise real completed renovation photography with consent, including 1 wide outcome image, 3–5 finishing-detail shots, and 1 context/house shot. Do not misrepresent stock photographs as Al's completed work. Real people and factual case studies reinforce trust.
+
+QUALITY CONTROL
+This is an original clean vector interpretation of Option A, not an extraction of vector paths from the original AI mockup. Compare to approved reference before printing large volumes. Confirm business-name spelling, legal/licensing claims, exact services, project consent, mobile/email/domain operation.

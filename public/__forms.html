@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en-AU"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Form definition</title></head>
+<body>
+<!-- Netlify Forms detection file. Netlify reads this at deploy time to register the "enquiry" form.
+     Field names MUST match components/EnquiryForm.tsx. Not linked from the site. -->
+<form name="enquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field" enctype="multipart/form-data" hidden>
+  <input type="hidden" name="form-name" value="enquiry">
+  <input name="bot-field">
+  <input name="name"><input name="phone"><input name="email"><input name="suburb">
+  <select name="renovation_type"><option>x</option></select>
+  <input type="radio" name="plans" value="x">
+  <textarea name="description"></textarea>
+  <select name="timing"><option>x</option></select>
+  <select name="budget"><option>x</option></select>
+  <input type="file" name="photos" multiple>
+</form>
+</body></html>

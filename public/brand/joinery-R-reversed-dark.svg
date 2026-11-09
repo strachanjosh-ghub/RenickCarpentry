@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="440" viewBox="0 0 400 440"><g transform="translate(15 18) scale(1.15)">
+ <!-- master R outline keeps familiar Option A proportions -->
+ <path d="M45 35 H171 C246 35 285 81 285 139 C285 189 258 220 218 234 L314 350 H238 L147 237 H119 V350 H45 Z" fill="#FFF8EC"/>
+ <!-- open counter: clear negative space on all backgrounds -->
+ <path d="M120 100 H168 C197 100 215 115 215 139 C215 162 197 176 168 176 H120 Z" fill="#03271F"/>
+ <!-- timber structural upright -->
+ <path d="M47 76 H119 V350 H47 Z" fill="#BD8650"/>
+ <!-- timber diagonal joinery leg -->
+ <path d="M138 233 L194 233 L290 349 H234 Z" fill="#BD8650"/>
+ <!-- subtle notch showing the join; deliberate Option A detail -->
+ <path d="M130 220 L150 240 L131 259 L112 240 Z" fill="#03271F" stroke="#D9A54C" stroke-width="5"/>
+ <path d="M62 95 V330 M77 95 V330 M92 95 V330 M167 247 L244 331 M181 245 L257 330" stroke="#FFF8EC" stroke-opacity=".43" stroke-width="3" fill="none"/>
+ </g></svg>
